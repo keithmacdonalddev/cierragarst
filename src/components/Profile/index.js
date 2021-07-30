@@ -1,13 +1,13 @@
 import React from 'react';
 import { HashLink as Link } from 'react-router-hash-link';
-import ImgProfile from '../../images/IMG_7390.jpg';
+
 import '../../App.css';
 
 const Profile = () => {
 	return (
 		<div className='card'>
 			<div className='card-image'>
-				<img src={ImgProfile} alt='Profile' className='activator' />
+				<img src='' alt='Profile' className='activator' />
 				<Link className='btn-floating halfway-fab waves-effect wave-light red'>
 					<i className='material-icons activator'>more_vert</i>
 				</Link>
